@@ -1,0 +1,17 @@
+import { BrowserRouter } from 'react-router-dom'
+import './App.css';
+import Main from './Main';
+
+function App() {
+
+  return (
+    <div className="App">
+      REACT
+      <BrowserRouter>
+        <Main/>
+      </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;
